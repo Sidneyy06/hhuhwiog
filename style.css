@@ -39,5 +39,16 @@ padding: 0;}
 
 .estudante-div{text-align:center;}
 
+.estudante-titulo{text-align: center;
+                 font-size: 30px;
+                 padding:24px 0;}
+
 .estudante-conteudo{text-align: center;
-                     padding: 24px; ;}
+                     padding: 24px 0;}
+
+.rodape{background-color: black;
+       text-align: center;}
+
+.rodape-image{width: 5%;
+             height: 20px;
+             padding:12px 0;}
