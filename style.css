@@ -2,53 +2,66 @@
 padding: 0;}
 
 
-.cabeçalho{
-
-    background-color: rgb(85,85,137);
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-}
+.cabeçalho{background-color: rgb(85,85,137);
+           color: white;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           padding: 10px 0;}
 
 .cabeçalho-imagem{width: 7%;}
+
 .cabeçalho-lista-item{ display: inline-block;
                        margin: 30px 100px;
                        font-size: 24px;}
 
-.escola-imagem{width: 25%;}
-.escola{background-image: linear-gradient(#383D58, #00c0eb);
+
+
+
+
+.escola-imagem{width: 10%;}
+
+.escola{background-image: linear-gradient(#383D58,#383D58);
         color: white;
         display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 0;}
-.escola-titulo{padding: 24, 0}
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;}
 
-.escola-texto{padding:30px 3%;}
+.escola-titulo{padding: 24px 0}
 
-.estudante-imagem{width: 20%;
+.escola-texto{padding:24px 0;}
 
-.estudante-icone{width: 3%;
 
-.estudante{background-image: linear-gradient(#6f678a, #87125a);
+
+
+.estudante-imagem{width: 20%;}
+
+.estudante-icone{width: 5%;}
+
+.estudante{background-image: linear-gradient(#383D58, #00c0eb);
           color: white;}
+
 .estudante-todos{display: grid;
-                grid-template-colums: 25% 25% 25% 25%;}
+                grid-template-columns: 25% 25% 25% 25%;}
 
 .estudante-div{text-align:center;}
 
 .estudante-titulo{text-align: center;
-                 font-size: 30px;
+                 font-size: 24px;
                  padding:24px 0;}
 
 .estudante-conteudo{text-align: center;
+                    font-size: 40px;
                      padding: 24px 0;}
+
+
+
+
 
 .rodape{background-color: black;
        text-align: center;}
 
-.rodape-image{width: 5%;
-             height: 20px;
+.rodape-imagem{width: 5%;
+             text-align: center;
              padding:12px 0;}
